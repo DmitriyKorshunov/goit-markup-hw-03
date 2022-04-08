@@ -18,40 +18,46 @@
   <body>
     <!--Шапка сайта-->
     <header class="header">
-      <nav>
-        <a href="https://WebStudio.com" class="logo list"
-          ><span class="logo-web">Web</span>Studio</a
-        >
+      <div class="container">
+        <nav>
+          <a href="https://WebStudio.com" class="logo list"
+            ><span class="logo-web">Web</span>Studio</a
+          >
 
-        <ul class="site-nav list">
-          <li><a href="" class="link current list">Студия</a></li>
-          <li><a href="./portfolio.html" class="link list">Портфолио</a></li>
-          <li><a href="" class="link list">Контакты</a></li>
+          <ul class="site-nav list">
+            <li><a href="" class="link current list">Студия</a></li>
+            <li><a href="./portfolio.html" class="link list">Портфолио</a></li>
+            <li><a href="" class="link list">Контакты</a></li>
+          </ul>
+        </nav>
+        <ul class="auth-nav list">
+          <li>
+            <a href="mailto:info@devstudio.com" class="link list"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+38-096-111-11-11" class="link list"
+              >+38 096 111 11 11</a
+            >
+          </li>
         </ul>
-      </nav>
-      <ul class="auth-nav list">
-        <li>
-          <a href="mailto:info@devstudio.com" class="link list"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a href="tel:+38-096-111-11-11" class="link list"
-            >+38 096 111 11 11</a
-          >
-        </li>
-      </ul>
+      </div>
     </header>
     <!--Уникальный контент страницы-->
     <main>
       <!--Герой-->
       <section class="hero">
-        <h1 class="hero-title">Эффективные решения <br />для вашего бизнеса</h1>
-        <button type="button" class="hero-btn">Заказать услугу</button>
+        <div class="container">
+          <h1 class="hero-title">
+            Эффективные решения <br />для вашего бизнеса
+          </h1>
+          <button type="button" class="hero-btn">Заказать услугу</button>
+        </div>
       </section>
 
       <!--Наши преимущества-->
-      <section class="section-advantages">
+      <section class="section-advantages container">
         <h2 class="title-none">Наши преимущества</h2>
         <ul class="list">
           <li>
@@ -93,7 +99,7 @@
         </ul>
       </section>
       <!--Чем мы занимаемся-->
-      <section class="section-work">
+      <section class="section-work container">
         <h2 class="work-title">Чем мы занимаемся</h2>
         <ul class="work-list list">
           <li class="work-item">
@@ -121,75 +127,79 @@
       </section>
       <!--Наша команда-->
       <section class="section-team">
-        <h2 class="team-title">Наша команда</h2>
-        <ul class="list">
-          <li>
-            <img
-              src="./img/igor-demyanenko.jpg"
-              alt="Мужчина в очках с бородкой и усами"
-              width="270"
-            />
-            <h3 class="title-name">Игорь Демьяненко</h3>
-            <p class="team-text">Product Designer</p>
-          </li>
-          <li>
-            <img
-              src="./img/olga-repina.jpg"
-              alt="Девушка блондинка в очках улыбается"
-              width="270"
-            />
-            <h3 class="section-title title-name">Ольга Репина</h3>
-            <p class="team-text">Frontend Developer</p>
-          </li>
-          <li>
-            <img
-              src="./img/nikolai-tarasov.jpg"
-              alt="Молодой мужчина улыбается"
-              width="270"
-            />
-            <h3 class="section-title title-name">Николай Тарасов</h3>
-            <p class="team-text">Marketing</p>
-          </li>
-          <li>
-            <img
-              src="./img/mikhail-ermakov.jpg"
-              alt="Молодой мужчина с легкой улыбкой в очках"
-              width="270"
-            />
-            <h3 class="section-title title-name">Михаил Ермаков</h3>
-            <p class="team-text">UI Designer</p>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="team-title">Наша команда</h2>
+          <ul class="list">
+            <li>
+              <img
+                src="./img/igor-demyanenko.jpg"
+                alt="Мужчина в очках с бородкой и усами"
+                width="270"
+              />
+              <h3 class="title-name">Игорь Демьяненко</h3>
+              <p class="team-text">Product Designer</p>
+            </li>
+            <li>
+              <img
+                src="./img/olga-repina.jpg"
+                alt="Девушка блондинка в очках улыбается"
+                width="270"
+              />
+              <h3 class="section-title title-name">Ольга Репина</h3>
+              <p class="team-text">Frontend Developer</p>
+            </li>
+            <li>
+              <img
+                src="./img/nikolai-tarasov.jpg"
+                alt="Молодой мужчина улыбается"
+                width="270"
+              />
+              <h3 class="section-title title-name">Николай Тарасов</h3>
+              <p class="team-text">Marketing</p>
+            </li>
+            <li>
+              <img
+                src="./img/mikhail-ermakov.jpg"
+                alt="Молодой мужчина с легкой улыбкой в очках"
+                width="270"
+              />
+              <h3 class="section-title title-name">Михаил Ермаков</h3>
+              <p class="team-text">UI Designer</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <!--Подвал-->
     <footer class="footer">
-      <a href="https://WebStudio.com" class="logo footer-logo list"
-        ><span class="footer-web">Web</span>Studio</a
-      >
-      <address>
-        <ul class="list">
-          <li>
-            <a
-              href="https://goo.gl/maps/mT76Hgf6RmnMrDRZ7"
-              target="_blank"
-              rel="noopener noindex nofollow"
-              class="footer-adress list"
-              >г. Киев, пр-т Леси Украинки, 26</a
-            >
-          </li>
-          <li>
-            <a href="mailto:info@devstudio.com" class="footer-mail list"
-              >info@example.com</a
-            >
-          </li>
-          <li>
-            <a href="tel:+38-096-111-11-11" class="footer-tel list"
-              >+38 099 111 11 11</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="container">
+        <a href="https://WebStudio.com" class="logo footer-logo list"
+          ><span class="footer-web">Web</span>Studio</a
+        >
+        <address>
+          <ul class="list">
+            <li>
+              <a
+                href="https://goo.gl/maps/mT76Hgf6RmnMrDRZ7"
+                target="_blank"
+                rel="noopener noindex nofollow"
+                class="footer-adress list"
+                >г. Киев, пр-т Леси Украинки, 26</a
+              >
+            </li>
+            <li>
+              <a href="mailto:info@devstudio.com" class="footer-mail list"
+                >info@example.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+38-096-111-11-11" class="footer-tel list"
+                >+38 099 111 11 11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
