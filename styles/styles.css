@@ -246,6 +246,11 @@ body {
   width: 130px;
   height: 38px;
 }
+
+.section-portfolio {
+  margin-top: 94px;
+}
+
 .portfolio-title {
   color: var(--title-text-color);
   font-weight: 700;
@@ -254,6 +259,7 @@ body {
   letter-spacing: 0.06em;
 }
 .text-portfolio {
+  margin-bottom: 0;
   color: var(--primary-text-color);
 
   font-size: 16px;
@@ -263,6 +269,7 @@ body {
 
 /*------------- footer------------ */
 .footer {
+  margin-top: 94px;
   background-color: var(--background-hero-footer-color);
 }
 
