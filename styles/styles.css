@@ -235,6 +235,13 @@ body {
   background-color: var(--background-ourteam-color);
 }
 
+.team-list {
+  display: flex;
+}
+
+.team-list .item + .item {
+  margin-left: 30px;
+}
 .team-list .item {
   outline: 1px solid tomato;
 }
@@ -334,11 +341,15 @@ body {
 /*------------- footer------------ */
 .footer {
   margin-top: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: var(--background-hero-footer-color);
 }
 
 .footer-logo {
+  margin-right: 0;
   color: var(--background-primary-color);
+  outline: 1px solid tomato;
 }
 
 .footer-logo:hover,
@@ -346,8 +357,15 @@ body {
   color: var(--accent-color);
 }
 .footer-web {
+  margin-top: 60px;
   color: var(--accent-color);
 }
+
+.address {
+  margin-top: 20px;
+  outline: 1px solid tomato;
+}
+
 .footer-adress {
   color: var(--background-primary-color);
   font-style: normal;
