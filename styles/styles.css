@@ -26,11 +26,14 @@ body {
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
+
+/*---Утилита---*/
+
 .list {
   list-style: none;
   text-decoration: none;
-  margin-top: 0;
-  margin-bottom: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .container {
@@ -46,7 +49,13 @@ body {
   background-color: var(--background-primary-color);
 }
 
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
 .logo {
+  margin-right: 93px;
   color: var(--title-text-color);
 
   font-family: "Raleway";
@@ -54,6 +63,8 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+
+  outline: 1px solid tomato;
 }
 .logo:hover,
 .logo:focus {
@@ -68,6 +79,19 @@ body {
 }
 
 /*---------site nav-------*/
+.site-nav {
+  display: flex;
+}
+
+.site-nav .item {
+  /* margin-right: 50px;*/
+  outline: 1px solid tomato;
+}
+
+.site-nav .item:not(:last-child) {
+  margin-right: 50px;
+}
+
 .site-nav .link {
   color: var(--title-text-color);
   font-weight: 500;
@@ -83,12 +107,21 @@ body {
   color: var(--accent-color);
 }
 /* auth-nav */
+
+.auth-nav {
+  display: flex;
+  margin-left: auto;
+}
+.auth-nav .item + .item {
+  margin-left: 50px;
+}
 .auth-nav .link {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  outline: 1px solid tomato;
 }
 .auth-nav .link:hover,
 .auth-nav .link:focus {
@@ -128,8 +161,21 @@ body {
 
 /* section */
 /*------advantages------*/
+
 .section-advantages {
   margin-top: 94px;
+}
+
+.advantages-content {
+  display: flex;
+}
+
+.advantages-content .item {
+  outline: 1px solid tomato;
+}
+.advantages-content .item + .item {
+  margin-left: 30px;
+  outline: 1px solid tomato;
 }
 .section-advantages-title {
   color: var(--title-text-color);
@@ -158,6 +204,20 @@ body {
 .section-work {
   margin-top: 94px;
 }
+
+.work-title,
+.work-item {
+  outline: 1px solid tomato;
+}
+
+.work-list {
+  display: flex;
+}
+
+.work-list .work-item + .work-item {
+  margin-left: 30px;
+}
+
 .work-title {
   margin-top: 0;
   margin-bottom: 0;
@@ -173,6 +233,10 @@ body {
 .section-team {
   margin-top: 94px;
   background-color: var(--background-ourteam-color);
+}
+
+.team-list .item {
+  outline: 1px solid tomato;
 }
 
 .team-title {
