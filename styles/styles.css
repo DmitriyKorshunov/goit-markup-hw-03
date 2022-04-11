@@ -51,7 +51,7 @@ body {
 
   background-color: var(--background-primary-color);
 
-  outline: 1px solid tomato;
+  /* outline: 1px solid tomato;*/
 }
 
 .header-nav {
