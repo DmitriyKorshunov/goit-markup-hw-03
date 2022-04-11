@@ -46,7 +46,12 @@ body {
 /*------HEADER------*/
 
 .header {
+  padding-top: 25px;
+  padding-bottom: 25px;
+
   background-color: var(--background-primary-color);
+
+  outline: 1px solid tomato;
 }
 
 .header-nav {
@@ -89,6 +94,7 @@ body {
 
 .site-nav .link {
   color: var(--title-text-color);
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -112,6 +118,7 @@ body {
 }
 .auth-nav .link {
   color: var(--primary-text-color);
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -144,6 +151,7 @@ body {
 }
 .hero-btn {
   margin-bottom: 200px;
+
   background-color: var(--accent-color);
   color: var(--background-primary-color);
   /*outline: 2px solid tomato;*/
@@ -173,10 +181,12 @@ body {
   /* outline: 1px solid tomato;*/
 }
 .section-advantages-title {
-  color: var(--title-text-color);
   margin-top: 0;
   margin-bottom: 10px;
+
+  color: var(--title-text-color);
 }
+
 .advantages-title {
   font-weight: 700;
   font-size: 14px;
@@ -217,7 +227,9 @@ body {
 .work-title {
   margin-top: 0;
   margin-bottom: 0;
+
   color: var(--title-text-color);
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -230,6 +242,7 @@ body {
   margin-top: 94px;
   padding-top: 94px;
   padding-bottom: 94px;
+
   background-color: var(--background-ourteam-color);
 }
 
@@ -245,10 +258,16 @@ body {
   outline: 1px solid tomato;
 }*/
 
+.team-card {
+  background-color: var(--background-primary-color);
+}
+
 .team-title {
   margin-top: 0;
   margin-bottom: 0;
+
   color: var(--title-text-color);
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -259,7 +278,9 @@ body {
 .title-name {
   margin-top: 30px;
   margin-bottom: 0;
+
   color: var(--title-text-color);
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -269,6 +290,8 @@ body {
 .team-text {
   margin-top: 10px;
   margin-bottom: 0;
+  padding-bottom: 30px;
+
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
@@ -290,12 +313,12 @@ body {
 .button {
   background-color: var(--background-ourteam-color);
   color: var(--title-text-color);
+
   cursor: pointer;
   font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
-
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -328,6 +351,7 @@ body {
 
 .section-portfolio {
   margin-top: 94px;
+  padding-bottom: 94px;
 }
 
 .portfolio-list {
@@ -353,14 +377,19 @@ body {
 }
 
 .portfolio-title {
+  margin-top: 20px;
+
   color: var(--title-text-color);
+
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 .text-portfolio {
+  margin-top: 4px;
   margin-bottom: 0;
+
   color: var(--primary-text-color);
 
   font-size: 16px;
@@ -373,11 +402,13 @@ body {
   margin-top: 0;
   padding-top: 60px;
   padding-bottom: 60px;
+
   background-color: var(--background-hero-footer-color);
 }
 
 .footer-logo {
   margin-right: 0;
+
   color: var(--background-primary-color);
   /*outline: 1px solid tomato;*/
 }
@@ -398,12 +429,14 @@ body {
 
 .footer-adress {
   color: var(--background-primary-color);
+
   font-style: normal;
   font-size: 14px;
   line-height: 1.7;
 }
 .footer-mail {
   color: var(--footer-mail-tel-color);
+
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -415,6 +448,7 @@ body {
 }
 .footer-tel {
   color: var(--footer-mail-tel-color);
+
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
