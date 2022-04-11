@@ -207,6 +207,7 @@ body {
 
 .work-list {
   display: flex;
+  margin-top: 50px;
 }
 
 .work-list .work-item + .work-item {
@@ -227,11 +228,14 @@ body {
 /*---------team--------*/
 .section-team {
   margin-top: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
   background-color: var(--background-ourteam-color);
 }
 
 .team-list {
   display: flex;
+  margin-top: 50px;
 }
 
 .team-list .item + .item {
@@ -253,7 +257,7 @@ body {
 }
 
 .title-name {
-  margin-top: 0;
+  margin-top: 30px;
   margin-bottom: 0;
   color: var(--title-text-color);
   font-weight: 500;
@@ -263,7 +267,7 @@ body {
 }
 
 .team-text {
-  margin-top: 0;
+  margin-top: 10px;
   margin-bottom: 0;
   font-weight: 400;
   font-size: 16px;
@@ -366,7 +370,7 @@ body {
 
 /*------------- footer------------ */
 .footer {
-  margin-top: 94px;
+  margin-top: 0;
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--background-hero-footer-color);
