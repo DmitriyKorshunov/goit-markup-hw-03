@@ -156,6 +156,7 @@ body {
   /*outline: 2px solid tomato;*/
 }
 .hero-btn {
+  border-radius: 4px;
   background-color: var(--accent-color);
   color: var(--background-primary-color);
   /*outline: 2px solid tomato;*/
@@ -324,6 +325,7 @@ body {
 }
 
 .button {
+  border-radius: 4px;
   background-color: var(--background-ourteam-color);
   color: var(--title-text-color);
 
