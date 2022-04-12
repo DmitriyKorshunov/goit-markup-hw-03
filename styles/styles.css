@@ -52,7 +52,7 @@ body {
   padding-bottom: 25px;
 
   background-color: var(--background-primary-color);
-
+  border-bottom: 1px solid var(--background-page-color);
   /* outline: 1px solid tomato;*/
 }
 
