@@ -17,6 +17,7 @@
   --background-ourteam-color: #f5f4fa;
   --background-primary-color: #ffffff;
 }
+
 body {
   background-color: var(--background-primary-color);
   color: var(--primary-text-color);
@@ -43,6 +44,7 @@ body {
   padding: 0 15px;
   /*outline: 2px solid tomato;*/
 }
+
 /*------HEADER------*/
 
 .header {
@@ -84,6 +86,7 @@ body {
 }
 
 /*---------site nav-------*/
+
 .site-nav {
   display: flex;
 }
@@ -107,6 +110,7 @@ body {
 .site-nav .link.current {
   color: var(--accent-color);
 }
+
 /* auth-nav */
 
 .auth-nav {
@@ -131,6 +135,7 @@ body {
 }
 
 /*------------hero-----------*/
+
 .hero {
   background-color: var(--background-hero-footer-color);
   text-align: center;
@@ -198,7 +203,7 @@ body {
 .advantages-text {
   margin-top: 0;
   margin-bottom: 0;
-  /*font-family: Roboto, sans-serif;*/
+  font-family: Roboto, sans-serif;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -238,6 +243,7 @@ body {
 }
 
 /*---------team--------*/
+
 .section-team {
   margin-top: 94px;
   padding-top: 94px;
@@ -300,6 +306,7 @@ body {
 }
 
 /*------portfolio-------*/
+
 .portfolio-button {
   display: flex;
   justify-content: center;
@@ -398,6 +405,7 @@ body {
 }
 
 /*------------- footer------------ */
+
 .footer {
   margin-top: 0;
   padding-top: 60px;
