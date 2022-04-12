@@ -140,11 +140,11 @@ body {
   background-color: var(--background-hero-footer-color);
   text-align: center;
   padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero-title {
   margin-top: 0;
   margin-bottom: 30px;
-  /*padding-top: 200px;*/
 
   color: var(--background-primary-color);
 
@@ -156,8 +156,6 @@ body {
   /*outline: 2px solid tomato;*/
 }
 .hero-btn {
-  margin-bottom: 200px;
-
   background-color: var(--accent-color);
   color: var(--background-primary-color);
   /*outline: 2px solid tomato;*/
@@ -172,7 +170,8 @@ body {
 /*------advantages------*/
 
 .section-advantages {
-  margin-top: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .advantages-content {
@@ -182,10 +181,12 @@ body {
 /*.advantages-content .item {
   outline: 1px solid tomato;
 }*/
+
 .advantages-content .item + .item {
   margin-left: 30px;
   /* outline: 1px solid tomato;*/
 }
+
 .section-advantages-title {
   margin-top: 0;
   margin-bottom: 10px;
@@ -213,7 +214,8 @@ body {
 /*--------work-------*/
 
 .section-work {
-  margin-top: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 /*.work-title,
@@ -246,7 +248,6 @@ body {
 /*---------team--------*/
 
 .section-team {
-  margin-top: 94px;
   padding-top: 94px;
   padding-bottom: 94px;
 
@@ -296,8 +297,7 @@ body {
 
 .team-text {
   margin-top: 10px;
-  margin-bottom: 0;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 
   font-weight: 400;
   font-size: 16px;
@@ -307,6 +307,11 @@ body {
 }
 
 /*------portfolio-------*/
+
+.section-portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 .portfolio-button {
   display: flex;
@@ -357,11 +362,6 @@ body {
   height: 38px;
 }
 
-.section-portfolio {
-  margin-top: 94px;
-  padding-bottom: 94px;
-}
-
 .portfolio-list {
   margin-top: 34px;
   display: flex;
@@ -370,9 +370,11 @@ body {
 }
 
 .portfolio-list .item {
+  padding-bottom: 20px;
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
+  border-bottom: 1px solid var(--background-page-color);
   /*outline: 1px solid tomato;*/
 }
 
@@ -436,6 +438,10 @@ body {
   /*outline: 1px solid tomato;*/
 }
 
+.address .item.item:nth-last-child(-n + 2) {
+  margin-top: 9px;
+}
+
 .footer-adress {
   color: var(--background-primary-color);
 
@@ -451,10 +457,12 @@ body {
   font-size: 14px;
   line-height: 1.7;
 }
+
 .footer-mail:hover,
 .footer-mail:focus {
   color: var(--accent-color);
 }
+
 .footer-tel {
   color: var(--footer-mail-tel-color);
 
@@ -463,6 +471,7 @@ body {
   font-size: 14px;
   line-height: 1.7;
 }
+
 .footer-tel:hover,
 .footer-tel:focus {
   color: var(--accent-color);
