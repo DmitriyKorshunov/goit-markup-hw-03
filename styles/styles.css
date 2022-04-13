@@ -156,7 +156,9 @@ body {
   /*outline: 2px solid tomato;*/
 }
 .hero-btn {
-  border-radius: 4px;
+  width: 136px;
+  border-width: 0;
+  padding: 0;
   background-color: var(--accent-color);
   color: var(--background-primary-color);
   /*outline: 2px solid tomato;*/
@@ -206,6 +208,7 @@ body {
 .advantages-text {
   margin-top: 0;
   margin-bottom: 0;
+  width: 270px;
   font-family: Roboto, sans-serif;
   font-size: 14px;
   line-height: 1.71;
