@@ -318,6 +318,7 @@ body {
 .button {
   display: block;
   padding: 0;
+  border: none;
   border-radius: 4px;
   background-color: var(--background-ourteam-color);
   color: var(--title-text-color);
@@ -396,6 +397,7 @@ body {
 }
 
 .portfolio-title {
+  margin-bottom: 4px;
   color: var(--title-text-color);
 
   font-weight: 700;
